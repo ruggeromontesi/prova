@@ -1,5 +1,5 @@
 name: hello-world-workflow
- on [push]
+on: [push]
 jobs:
   say-hello:
    runs-on: ubuntu-latest
